@@ -1,0 +1,33 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grocery Bill Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="bill-card">
+        <h1>Grocery Bill Card</h1>
+        <div class="item">
+            <label for="itemName">Item Name:</label>
+            <input type="text" id="itemName" placeholder="Enter item name">
+        </div>
+        <div class="item">
+            <label for="price">Price:</label>
+            <input type="number" id="price" placeholder="Enter price">
+        </div>
+        <div class="item">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" placeholder="Enter quantity">
+        </div>
+        <button onclick="calculateTotal()">Calculate Total</button>
+        <div class="total">
+            <label for="totalPrice"><b>Total Price:</b></label>
+            <span id="totalPrice">$0.00</span>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

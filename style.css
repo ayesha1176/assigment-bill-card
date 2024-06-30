@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsla(44, 87%, 45%, 0.686);
+}
+
+.bill-card {
+    background-color: hsla(191, 76%, 44%, 0.706);
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+}
+
+.bill-card h1 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.item {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.item label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.item input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: hsl(40, 100%, 50%);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(33, 100%, 35%);
+}
+
+.total {
+    margin-top: 20px;
+    font-size: 18px;
+}
